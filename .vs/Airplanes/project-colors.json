@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dbb2dd35-fad8-4b57-868e-f04db0613870": {
+      "ProjectGuid": "dbb2dd35-fad8-4b57-868e-f04db0613870",
+      "DisplayName": "Airplanes",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

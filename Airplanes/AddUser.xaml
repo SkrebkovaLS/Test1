@@ -1,0 +1,26 @@
+﻿<Window x:Class="Airplanes.AddUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Airplanes"
+        mc:Ignorable="d"
+        Title="AddUser" Height="450" Width="800">
+    <Grid>
+        <Label Content="Email addres" HorizontalAlignment="Left" Margin="93,70,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="175,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="First name" HorizontalAlignment="Left" Margin="93,112,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="first_name" HorizontalAlignment="Left" Margin="175,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Last name" HorizontalAlignment="Left" Margin="93,155,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="last_name" HorizontalAlignment="Left" Margin="175,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Office" HorizontalAlignment="Left" Margin="93,191,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="office" HorizontalAlignment="Left" Height="26" Margin="175,191,0,0" VerticalAlignment="Top" Width="120" DisplayMemberPath="Title"/>
+        <Label Content="Birthdate" HorizontalAlignment="Left" Margin="93,235,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="date" HorizontalAlignment="Left" Height="26" Margin="175,235,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Birthdate" HorizontalAlignment="Left" Margin="96,280,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="175,284,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Left" Height="25" Margin="122,358,0,0" VerticalAlignment="Top" Width="124" Click="btn_save_Click"/>
+        <Button x:Name="btn_cancel" Content="Cancel" HorizontalAlignment="Left" Height="25" Margin="313,358,0,0" VerticalAlignment="Top" Width="124" Click="btn_cancel_Click"/>
+
+    </Grid>
+</Window>
